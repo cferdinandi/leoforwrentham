@@ -1,0 +1,24 @@
+			</div>
+		</main>
+
+		<footer class="container container-large padding-top-large">
+			<!-- <hr class="margin-bottom"> -->
+			<div class="row-flex margin-bottom-large">
+				{{ partial "nav-secondary.html" . }}
+				<div>Serving Franklin, MA and surrounding areas</div>
+				{{ partial "call-us.html" . }}
+			</div>
+		</footer>
+
+		<script>
+			{{- if .HasShortcode "wc-toc" -}}{{ readFile "/static/js/wc-simple-toc.js" | safeJS }}{{- end -}}
+			{{ readFile "/static/js/swInit.js" | safeJS }}
+			{{- if .HasShortcode "wc-photoswipe" -}}
+				{{ readFile "/static/js/photoswipe-lightbox.umd.min.js" | safeJS }}
+				{{ readFile "/static/js/photoswipe.umd.min.js" | safeJS }}
+				{{ readFile "/static/js/wc-photoswipe.js" | safeJS }}
+			{{- end -}}
+			{{ readFile "/static/js/swInit.js" | safeJS }}
+		</script>
+	</body>
+</html>

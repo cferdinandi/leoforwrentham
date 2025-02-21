@@ -1,0 +1,17 @@
+/**
+ * @section Form Validation
+ */
+
+.error {
+	border-color: var(--color-secondary-dark);
+}
+
+.success-message,
+.error-message {
+	font-style: italic;
+}
+
+.error-message {
+	color: var(--color-secondary);
+	margin-bottom: 1em;
+}

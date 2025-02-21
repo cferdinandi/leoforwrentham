@@ -1,0 +1,8 @@
+{{- $photos := .Site.Data.photos -}}
+{{- $srcs := split (.Get "src") "," -}}
+
+{{- range $src := $srcs -}}
+<a href="/img/services/{{ $src }}.jpg">
+	<img {{ if isset $photos $src }}alt="{{ index $photos $src }}"{{ end }} src="/img/services/{{ $src }}.jpg">
+</a>
+{{- end -}}

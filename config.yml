@@ -1,0 +1,78 @@
+# hostname (and path) to the root
+# baseURL: https://leoforwrentham.com
+baseURL: https://leo.gomakethings.com
+
+# Site title
+title: Leo Immonen for Wrentham Select Board
+
+# Custom parameters
+params:
+  demo: true
+  description: A candidate for the people.
+  image: /img/og.png
+  logo:
+    text: "<span class=\"text-large\">Leo Immonen</span><br><span class=\"text-small\"><em class=\"text-xsmall text-muted\">for</em></span> Select Board"
+    src: /img/logo.png
+    height: "70" # original: 306
+    width: "75" # original: 329
+  css:
+    - fonts.css
+    - _config.css
+    - reset.css
+    - grid.css
+    - typography.css
+    - code.css
+    - forms.css
+    - buttons.css
+    - images.css
+    - icons.css
+    - fluidvids.css
+    - callouts.css
+    - tables.css
+    - nav-main.css
+    - nav-secondary.css
+    - utilities.css
+    - print.css
+
+# Caches
+caches:
+  getjson:
+    maxAge: 1m
+
+# The language code for the site
+languageCode: en-us
+
+# Permalinks
+# See "content-management/permalinks"
+permalinks:
+  services: /:filename/
+
+# Use absolute URLs
+canonifyURLs: true
+
+# Allows you to disable all page types and will render nothing related to 'kind';
+# values = "page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"
+disableKinds:
+  - RSS
+  - hugoGeneratorInject
+  - "404"
+  - taxonomy
+  - taxonomyTerm
+
+# Files to ignore while rendering
+ignoreFiles: []
+
+# the length of text to show in a .Summary
+summaryLength: 70
+
+# Pagination
+paginate: 35
+paginatePath: page
+
+# Markdown Options
+blackfriday:
+  fractions: false
+
+# Syntax Highlighting
+pygmentsCodefences: true
+pygmentsUseClasses: true
