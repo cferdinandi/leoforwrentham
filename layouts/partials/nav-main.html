@@ -1,13 +1,14 @@
-<header class="container container-large">
-	<nav class="nav-wrap">
-		<a class="logo" href="{{ .Site.BaseURL }}">
-			{{ .Site.Params.logo.text | safeHTML }}
-		</a>
-		<div class="nav-menu" id="nav-menu">
-			<ul class="nav">
-				{{ partial "nav-items.html" . }}
-				<li>{{ partial "call-us.html" . }}</li>
-			</ul>
-		</div>
-	</nav>
+<header class="nav-header">
+	<div class="container container-large">
+		<nav class="nav-wrap">
+			<a class="logo" href="{{ .Site.BaseURL }}">
+				{{ .Site.Params.logo.text | safeHTML }}
+			</a>
+			<div class="nav-menu" id="nav-menu">
+				<ul class="nav">
+					{{ partial "nav-items.html" . }}
+				</ul>
+			</div>
+		</nav>
+	</div>
 </header>

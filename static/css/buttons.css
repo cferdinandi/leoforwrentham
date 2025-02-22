@@ -48,28 +48,10 @@ a.btn {
  * Secondary buttons
  */
 .btn-secondary {
-	--bg-color: var(--color-tertiary);
-}
-
-@media (prefers-color-scheme: dark) {
-	.btn-secondary {
-		border-color: var(--color-white);
-	}
-}
-
-.btn-secondary:hover {
-	--bg-color: var(--color-tertiary-darker);
-}
-
-
-/**
- * Tertiary buttons
- */
-.btn-tertiary {
 	--bg-color: var(--color-primary);
 }
 
-.btn-tertiary:hover {
+.btn-secondary:hover {
 	--bg-color: var(--color-primary-dark);
 }
 

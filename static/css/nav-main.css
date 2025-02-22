@@ -3,12 +3,15 @@
  * Styling for the main navigation area
  */
 
+.nav-header {
+	border-bottom: 2px solid var(--color-secondary);
+}
+
 /**
  * The navigation wrapper
  */
 .nav-wrap {
-	padding-top: 1em;
-	padding-bottom: 0.5em;
+	padding: 1em 0;
 	text-align: center;
 }
 
@@ -24,6 +27,7 @@
  * The logo
  */
 .logo {
+	color: var(--color-black);
 	display: inline-block;
 	font-family: var(--font-secondary);
 	font-size: 1.0625em;
@@ -33,6 +37,7 @@
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: left;
+	transition: color 200ms ease-in;
 }
 
 @media (min-width: 60em) {
@@ -41,12 +46,26 @@
 	}
 }
 
-.logo {
-	color: var(--color-black);
+.logo-row {
+	display: flex;
+	align-items: center;
+}
+
+.logo-name {
+	color: var(--color-secondary);
+	font-size: 1.3125em;
+}
+
+.logo-join {
+	color: var(--color-gray-dark);
+	font-family: var(--font-primary);
+	font-size: 0.8125em;
+	font-style: italic;
+	text-transform: none;
 }
 
 .logo:hover {
-	color: var(--color-primary);
+	color: var(--color-secondary);
 }
 
 /**
@@ -60,6 +79,10 @@
 	flex-wrap: wrap;
 	list-style-type: "";
 	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.nav .btn {
 	margin-bottom: 0;
 }
 

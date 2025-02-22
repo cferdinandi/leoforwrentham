@@ -9,7 +9,6 @@ html {
 
 body {
 	background: var(--color-white);
-	border-top: 0.25em solid var(--color-primary-light);
 	color: var(--color-black);
 	font-family: var(--font-primary);
 	font-size: var(--font-size);
@@ -40,10 +39,6 @@ a {
 a:hover {
 	color: var(--color-primary-dark);
 }
-
-/*main a:not(.btn,.link-no-visited):visited {
-	color: var(--color-accent-1);
-}*/
 
 
 .link-no-underline {
@@ -199,6 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.4;
 	margin: 0 0 1em;
 	padding: 0;
+	text-transform: uppercase;
 	text-wrap: pretty;
 	word-wrap: break-word;
 }
@@ -235,7 +231,6 @@ h4, h5, h6,
 h4,
 .h4 {
 	font-size: 0.8125em;
-	text-transform: uppercase;
 }
 
 /**
