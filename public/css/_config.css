@@ -1,0 +1,61 @@
+/**
+ * @section Configuration Settings
+ * Typographic Scale: 1px, 4px, 5px, 8px, 9px, 11px, 12px, 13px, 15px, 16px, 19px, 21px, 24px, 28px, 32px, 48px, 64px, 80px, 96px
+ */
+
+
+:root {
+
+	/* Colors */
+	--color-primary: #157fac;
+	--color-primary-dark: #105e7f;
+	--color-primary-light: #63c2ec;
+	--color-secondary: #275a19;
+	--color-secondary-dark: #193c11;
+	--color-secondary-light: #ccedc5;
+	--color-tertiary: #faf20f;
+	--color-tertiary-dark: #bab403;
+	--color-tertiary-light: #fbf9c9;
+	--color-black: #272727;
+	--color-black-dark: #000000;
+	--color-white: #ffffff;
+
+	--color-gray-darker: #4f4f4f;
+	--color-gray-dark: #757575;
+	--color-gray-medium-dark: #b2b2b2;
+	--color-gray-medium-light: #d3d3d3;
+	--color-gray-light: #e5e5e5;
+	--color-gray-lighter: #f7f7f7;
+
+	--color-code: #dd1144;
+	--color-mark: #fbf9c9;
+
+
+	/* Font Stacks */
+	--font-primary: "Noto Sans", sans-serif;
+	--font-secondary: Oswald, sans-serif;
+	--font-monospace: Menlo, Monaco, "Courier New", monospace;
+
+
+	/* Breakpoints */
+	/* Can't use in media queries */
+	--bp-xsmall: 19em;
+	--bp-small: 28em;
+	--bp-medium: 38em;
+	--bp-large: 60em;
+	--bp-xlarge: 80em;
+
+
+	/* Sizing */
+	--font-size: 112.5%;
+	--spacing: 1.5625em;
+	--container-width: 88%;
+	--container-max-width: var(--bp-medium);
+	--container-large-max-width: var(--bp-large);
+
+}
+
+.font-alt {
+	--font-primary: Roboto, sans-serif;
+	--font-secondary: "Roboto Slab", serif;
+}

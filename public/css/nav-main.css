@@ -1,0 +1,98 @@
+/**
+ * @section Main Nav
+ * Styling for the main navigation area
+ */
+
+.nav-header {
+	border-bottom: 2px solid var(--color-secondary);
+}
+
+/**
+ * The navigation wrapper
+ */
+.nav-wrap {
+	padding: 1em 0;
+	text-align: center;
+}
+
+@media (min-width: 60em) {
+	.nav-wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+/**
+ * The logo
+ */
+.logo {
+	color: var(--color-black);
+	display: inline-block;
+	font-family: var(--font-secondary);
+	font-size: 1.0625em;
+	font-weight: bold;
+	line-height: 1.2;
+	margin-bottom: 0.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: left;
+	transition: color 200ms ease-in;
+}
+
+@media (min-width: 60em) {
+	.logo {
+		margin-bottom: 0;
+	}
+}
+
+.logo-row {
+	display: flex;
+	align-items: center;
+}
+
+.logo-name {
+	color: var(--color-secondary);
+	font-size: 1.3125em;
+}
+
+.logo-join {
+	color: var(--color-gray-dark);
+	font-family: var(--font-primary);
+	font-size: 0.8125em;
+	font-style: italic;
+	text-transform: none;
+}
+
+.logo:hover {
+	color: var(--color-secondary);
+}
+
+/**
+ * The navigation menu
+ */
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 1em;
+	flex-wrap: wrap;
+	list-style-type: "";
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.nav .btn {
+	margin-bottom: 0;
+}
+
+.nav a:not(.btn) {
+	color: var(--color-gray-dark);
+	text-decoration: none;
+}
+
+.nav a:not(.btn):hover,
+.nav [aria-current="page"] {
+	border-bottom: 0.125em solid var(--color-secondary);
+	color: var(--color-black);
+}

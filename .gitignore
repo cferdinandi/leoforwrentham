@@ -9,5 +9,5 @@ node_modules
 .Trashes
 
 ## Hugo
-public
+# public
 .htaccess*
