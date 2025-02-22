@@ -57,6 +57,20 @@ a.btn {
 
 
 /**
+ * Tertiary buttons
+ */
+.btn-tertiary {
+	--bg-color: var(--color-tertiary-light);
+	color: var(--color-black);
+}
+
+.btn-tertiary:hover {
+	--bg-color: var(--color-tertiary);
+	color: var(--color-black);
+}
+
+
+/**
  * Muted buttons
  */
 .btn-muted {
@@ -106,7 +120,7 @@ button[disabled],
 
 .btn-large {
 	--font-size: 1em;
-	--padding: 0.6875em 0.9375em;
+	--padding: 0.6875em 1.3125em;
 }
 
 .btn-xlarge {

@@ -86,7 +86,7 @@ Don&rsquo;t worry! You can still access some of the pages you looked at before g
 	--color-secondary: #275a19;
 	--color-secondary-dark: #193c11;
 	--color-secondary-light: #ccedc5;
-	--color-tertiary: #faf20f;
+	--color-tertiary: #fbf784;
 	--color-tertiary-dark: #bab403;
 	--color-tertiary-light: #fbf9c9;
 	--color-black: #272727;
@@ -932,6 +932,20 @@ a.btn {
 
 
 /**
+ * Tertiary buttons
+ */
+.btn-tertiary {
+	--bg-color: var(--color-tertiary-light);
+	color: var(--color-black);
+}
+
+.btn-tertiary:hover {
+	--bg-color: var(--color-tertiary);
+	color: var(--color-black);
+}
+
+
+/**
  * Muted buttons
  */
 .btn-muted {
@@ -981,7 +995,7 @@ button[disabled],
 
 .btn-large {
 	--font-size: 1em;
-	--padding: 0.6875em 0.9375em;
+	--padding: 0.6875em 1.3125em;
 }
 
 .btn-xlarge {
@@ -1397,8 +1411,8 @@ td {
 
 .bg-primary,
 .bg-tertiary,
-.bg-primary a,
-.bg-tertiary a,
+.bg-primary a:not(.btn),
+.bg-tertiary a:not(.btn),
 .bg-primary h1,
 .bg-primary h2,
 .bg-primary h3,
@@ -1414,8 +1428,8 @@ td {
 	color: var(--color-white);
 }
 
-.bg-primary a:hover,
-.bg-tertiary a:hover {
+.bg-primary a:not(.btn):hover,
+.bg-tertiary a:not(.btn):hover {
 	color: var(--color-gray-medium-dark);
 }
 
@@ -1744,6 +1758,7 @@ td {
 				<ul class="nav">
 					<li><a href="#join">Join</a></li>
 <li><a href="#meet">Meet</a></li>
+<li><a href="#vote">Vote</a></li>
 <li><a href="#contact">Contact</a></li>
 <li><a href="#donate">Support</a></li>
 				</ul>
@@ -1804,6 +1819,7 @@ td {
 	<ul class="list-inline no-margin-bottom">
 		<li><a href="#join">Join</a></li>
 <li><a href="#meet">Meet</a></li>
+<li><a href="#vote">Vote</a></li>
 <li><a href="#contact">Contact</a></li>
 <li><a href="#donate">Support</a></li>
 	</ul>

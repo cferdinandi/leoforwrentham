@@ -36,7 +36,7 @@ noTitle: true
 							<li>Leo brings a fresh perspective as a researcher</li>
 							<li>An experienced citizen advocate in the State House</li>
 							<li>A fiscally conservative progressive</li>
-							<li>A US Army Veteran Officer</li>
+							<li>Veteran - US Army Officer</li>
 							<li>A retired teacher</li>
 						</ul>
 						<strong>Decades of Service</strong>
@@ -59,6 +59,14 @@ noTitle: true
 	</div>
 </div>
 
+<div id="vote" class="full-width bg-muted padding-top-large padding-bottom-large">
+	<div class="container">
+		<h2 class="text-xlarge text-center">Vote this Election Day!</h2>
+		<p>The Wrentham town election is Monday, April 7, 2025, from 7am to 8pm at the Delaney Elementary School. <a href="https://www.wrentham.gov/263/Election-Information">Click here to learn more.</a></p>
+		<iframe class="fluid-vid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2962.1520776214957!2d-71.32889102436495!3d42.06135955392108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e464474d656049%3A0xea530e85acc1be38!2sDelaney%20School!5e0!3m2!1sen!2sus!4v1740249462867!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+</div>
+
 <div id="contact" class="text-center padding-top-large padding-bottom-large">
 	<h2 class="text-xlarge text-center margin-bottom-small">Have a question or concern?</h2>
 	<p><strong>Get in touch!</strong> I'd love to talk with you.</p>
@@ -71,6 +79,6 @@ noTitle: true
 <div id="donate" class="full-width bg-tertiary padding-top-large padding-bottom-large">
 	<div class="container container-large">
 		<h2 class="text-xlarge text-center">Support Leo's Campaign</h2>
-		<p>Embed donation form here...
+		<p class="margin-bottom-large text-center"><a class="btn btn-tertiary btn-large" href="https://secure.actblue.com/donate/leo-immonen-1/">Donate Now &rarr;</a> 
 	</div>
 </div>

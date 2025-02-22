@@ -130,8 +130,8 @@
 
 .bg-primary,
 .bg-tertiary,
-.bg-primary a,
-.bg-tertiary a,
+.bg-primary a:not(.btn),
+.bg-tertiary a:not(.btn),
 .bg-primary h1,
 .bg-primary h2,
 .bg-primary h3,
@@ -147,8 +147,8 @@
 	color: var(--color-white);
 }
 
-.bg-primary a:hover,
-.bg-tertiary a:hover {
+.bg-primary a:not(.btn):hover,
+.bg-tertiary a:not(.btn):hover {
 	color: var(--color-gray-medium-dark);
 }
 
