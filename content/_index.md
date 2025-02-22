@@ -34,9 +34,9 @@ noTitle: true
 						<strong>Highlights</strong>
 						<ul>
 							<li>Leo brings a fresh perspective as a researcher</li>
-							<li>An experienced citizen advocate in State House</li>
-							<li>A fiscally conservative Progressive</li>
-							<li>A US Army Veteran</li>
+							<li>An experienced citizen advocate in the State House</li>
+							<li>A fiscally conservative progressive</li>
+							<li>A US Army Veteran Officer</li>
 							<li>A retired teacher</li>
 						</ul>
 						<strong>Decades of Service</strong>
@@ -46,8 +46,8 @@ noTitle: true
 							<li>15 years as a Wrentham Election Official</li>
 							<li>7 years on the Community Preservation Committee</li>
 							<li>Led 3 campaigns to pass the Community Preservation Act</li>
-							<li>PTA President of Norwood Elementary School</li>
-							<li>Lay President Norwood Lutheran Church</li>
+							<li>PTA President of Norwood elementary school</li>
+							<li>First lay President of Norwood Lutheran church</li>
 						</ul>
 					</div>
 				</details>
