@@ -9,7 +9,7 @@ noTitle: true
 	<div class="container container-large">
 		<h1 class="text-xlarge text-center">Committed to the Wrentham Community</h1>
 		<div class="row">
-			<div class="grid-third text-center">
+			<div class="grid-third text-center margin-bottom">
 				<img class="img-photo" style="width:88%;transform: rotate(2deg);" height="1707" width="1280" src="/img/photos/leo1.jpg">
 			</div> 
 			<div class="grid-two-thirds grid-start-first">
@@ -24,7 +24,7 @@ noTitle: true
 	<div class="container container-large">
 		<h2 class="text-xlarge text-center">Meet Leo</h2>
 		<div class="row margin-bottom-large">
-			<div class="grid-half">
+			<div class="grid-half margin-bottom">
 				<p>During his 35 years in Wrentham, Leo has served on numerous committees.</p>
 				<p>He is currently completing 18 years on the Conservation Commission. He has served on the Recycling Committee, the Open Space Committee, and the Zoning Board of Appeals. He was the driving force behind Wrentham's adoption of the Community Preservation Act.</p>
 				<p>With those years of service to our town, Leo is now eager to serve on our Select Board.</p>
