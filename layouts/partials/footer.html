@@ -8,6 +8,12 @@
 			<p class="text-small text-muted">Paid for by Leo Immonen for Select Board &middot; PO Box 24, Wrentham, MA 02093</p>
 		</footer>
 
+		{{- if isset .Params "externaljs" -}}
+			{{- range $js := .Params.externaljs -}}
+			<script src="{{ $js }}"></script>
+			{{- end -}}
+		{{- end -}}
+
 		<script>
 			{{- if .HasShortcode "wc-toc" -}}{{ readFile "/static/js/wc-simple-toc.js" | safeJS }}{{- end -}}
 			{{ readFile "/static/js/swInit.js" | safeJS }}
@@ -15,6 +21,13 @@
 				{{ readFile "/static/js/photoswipe-lightbox.umd.min.js" | safeJS }}
 				{{ readFile "/static/js/photoswipe.umd.min.js" | safeJS }}
 				{{ readFile "/static/js/wc-photoswipe.js" | safeJS }}
+			{{- end -}}
+			{{- if isset .Params "js" -}}
+				{{- range $js := .Params.js -}}
+					{{- if fileExists (printf "/static/js/%s.js" $js) -}}
+						{{ readFile (printf "/static/js/%s.js" $js) | safeJS }}
+					{{- end -}}
+				{{- end -}}
 			{{- end -}}
 			{{ readFile "/static/js/swInit.js" | safeJS }}
 		</script>

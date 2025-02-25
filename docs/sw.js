@@ -1,4 +1,4 @@
-let version = 'fphg_20241010';
+let version = 'l4w_20250225';
 
 // Cache IDs
 let coreID = version + '_core';
@@ -14,15 +14,18 @@ let limits = {
 
 // Font files
 let fontFiles = [
-	'https://gomakethings.com/fonts/pt-sans-v17-latin-regular.woff2',
-	'https://gomakethings.com/fonts/pt-sans-v17-latin-italic.woff2',
-	'https://gomakethings.com/fonts/pt-sans-v17-latin-700.woff2',
-	'https://gomakethings.com/fonts/pt-sans-v17-latin-700italic.woff2',
-	'https://gomakethings.com/fonts/pt-serif-v18-latin-regular.woff2',
-	'https://gomakethings.com/fonts/pt-serif-v18-latin-italic.woff2',
-	'https://gomakethings.com/fonts/pt-serif-v18-latin-700.woff2',
-	'https://gomakethings.com/fonts/pt-serif-v18-latin-700italic.woff2'
+	'https://leoforwrentham.com/fonts/noto-sans-v38-latin-700.woff2',
+	'https://leoforwrentham.com/fonts/noto-sans-v38-latin-700italic.woff2',
+	'https://leoforwrentham.com/fonts/noto-sans-v38-latin-italic.woff2',
+	'https://leoforwrentham.com/fonts/noto-sans-v38-latin-regular.woff2',
+	'https://leoforwrentham.com/fonts/oswald-v53-latin-700.woff2'
 ];
+
+
+
+
+
+
 
 
 //
@@ -112,7 +115,7 @@ self.addEventListener('fetch', function (event) {
 
 	// Images & Fonts
 	// Offline-first
-	if (request.headers.get('Accept').includes('image') || request.url.includes('.woff') || request.url.includes('/css/fonts.css')) {
+	if (request.headers.get('Accept').includes('image') || request.url.includes('.woff2')) {
 		event.respondWith(
 			caches.match(request).then(function (response) {
 				return response || fetch(request).then(function (response) {

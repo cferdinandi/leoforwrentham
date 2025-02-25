@@ -111,6 +111,7 @@
 	--bp-xsmall: 19em;
 	--bp-small: 28em;
 	--bp-medium: 38em;
+	--bp-medium-plus: 48em;
 	--bp-large: 60em;
 	--bp-xlarge: 80em;
 
@@ -120,6 +121,7 @@
 	--spacing: 1.5625em;
 	--container-width: 88%;
 	--container-max-width: var(--bp-medium);
+	--container-medium-max-width: var(--bp-medium-plus);
 	--container-large-max-width: var(--bp-large);
 
 }
@@ -232,6 +234,10 @@ summary {
 	margin-right: auto;
 	max-width: var(--container-max-width);
 	width: var(--container-width);
+}
+
+.container-medium {
+	max-width: var(--container-medium-max-width);
 }
 
 .container-large {
@@ -1276,6 +1282,138 @@ td {
 .nav-secondary a:hover {
 	text-decoration: underline;
 }/**
+ * @section ConvertKit
+ */
+
+
+/*.formkit-form[data-uid="b5f87421df"] ol:not([template-default]),
+.formkit-form[data-uid="b5f87421df"] ul:not([template-default]),
+.formkit-form[data-uid="b5f87421df"] blockquote:not([template-default]) {
+	text-align: left;
+}
+
+.formkit-form[data-uid="b5f87421df"] p:not([template-default]),
+.formkit-form[data-uid="b5f87421df"] hr:not([template-default]),
+.formkit-form[data-uid="b5f87421df"] blockquote:not([template-default]),
+.formkit-form[data-uid="b5f87421df"] ol:not([template-default]),
+.formkit-form[data-uid="b5f87421df"] ul:not([template-default]) {
+	color: inherit;
+	font-style: initial;
+}*/
+
+.formkit-form[data-uid="b5f87421df"] .ordered-list,
+.formkit-form[data-uid="b5f87421df"] .unordered-list {
+	list-style-position: outside !important;
+	padding-left: 1em;
+}
+
+.formkit-form[data-uid="b5f87421df"] .list-item {
+	padding-left: 0;
+}
+
+.formkit-form[data-uid="b5f87421df"] .formkit-button,
+.formkit-form[data-uid="b5f87421df"] .formkit-submit {
+	position: relative;
+}
+
+.formkit-form[data-uid="b5f87421df"] .formkit-alert {
+	background: #f9fafb;
+	border: 1px solid #e3e3e3;
+	border-radius: 5px;
+	flex: 1 0 auto;
+	list-style: none;
+	margin: 25px auto;
+	padding: 12px;
+	text-align: center;
+	width: 100%;
+}
+
+.formkit-form[data-uid="b5f87421df"] .formkit-alert:empty {
+	display: none;
+}
+
+.formkit-form[data-uid="b5f87421df"] .formkit-alert-success {
+	background: #d3fbeb;
+	border-color: #10bf7a;
+	color: #0c905c;
+}
+
+.formkit-form[data-uid="b5f87421df"] .formkit-alert-error {
+	background: #fde8e2;
+	border-color: #f2643b;
+	color: #ea4110;
+}
+
+.formkit-form[data-uid="b5f87421df"] .formkit-spinner {
+	display: flex;
+	height: 0px;
+	width: 0px;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 0px;
+	overflow: hidden;
+	text-align: center;
+	transition: all 300ms ease-in-out;
+}
+
+.formkit-form[data-uid="b5f87421df"] .formkit-spinner>div {
+	margin: auto;
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	opacity: 0.3;
+	border-radius: 100%;
+	display: inline-block;
+	animation: formkit-bouncedelay-formkit-form-data-uid-b5f87421df- 1.4s infinite ease-in-out both;
+}
+
+.formkit-form[data-uid="b5f87421df"] .formkit-spinner>div:nth-child(1) {
+	animation-delay: -0.32s;
+}
+
+.formkit-form[data-uid="b5f87421df"] .formkit-spinner>div:nth-child(2) {
+	animation-delay: -0.16s;
+}
+
+.formkit-form[data-uid="b5f87421df"] .formkit-submit[data-active] .formkit-spinner {
+	opacity: 1;
+	height: 100%;
+	width: 50px;
+}
+
+.formkit-form[data-uid="b5f87421df"] .formkit-submit[data-active] .formkit-spinner~span {
+	opacity: 0;
+}
+
+@keyframes formkit-bouncedelay-formkit-form-data-uid-b5f87421df- {
+
+	0%,
+	80%,
+	100% {
+		transform: scale(0);
+	}
+
+	40% {
+		transform: scale(1);
+	}
+}
+
+/*.formkit-form[data-uid="b5f87421df"] blockquote {
+	padding: 10px 20px;
+	margin: 0 0 20px;
+	border-left: 5px solid #e1e1e1;
+}
+
+.formkit-form[data-uid="b5f87421df"] .seva-custom-content {
+	padding: 15px;
+	font-size: 16px;
+	color: #fff;
+	mix-blend-mode: difference;
+}*/
+/**
  * @section Utility classes
  */
 
@@ -1794,9 +1932,7 @@ td {
 </nav>
 			</div>
 			<p class="text-small text-muted">Paid for by Leo Immonen for Select Board &middot; PO Box 24, Wrentham, MA 02093</p>
-		</footer>
-
-		<script>// Initialize the service worker
+		</footer><script>// Initialize the service worker
 if (navigator && navigator.serviceWorker) {
 	navigator.serviceWorker.register('/sw.js');
 }

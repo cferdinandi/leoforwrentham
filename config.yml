@@ -36,6 +36,7 @@ params:
     - tables.css
     - nav-main.css
     - nav-secondary.css
+    - convertkit.css
     - utilities.css
     - print.css
 

@@ -12,6 +12,10 @@
 	width: var(--container-width);
 }
 
+.container-medium {
+	max-width: var(--container-medium-max-width);
+}
+
 .container-large {
 	max-width: var(--container-large-max-width);
 }
