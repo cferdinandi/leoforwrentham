@@ -46,7 +46,7 @@ noTitle: true
 						<ul>
 							<li>18 years on the Conservation Commission</li>
 							<li>19 years on the Zoning Board of Appeals</li>
-							<li>15 years as a Wrentham Election Official</li>
+							<li>13 years as a Wrentham Election Official</li>
 							<li>7 years on the Community Preservation Committee</li>
 							<li>Led 3 campaigns to pass the Community Preservation Act</li>
 							<li>PTA President of Norwood elementary school</li>
