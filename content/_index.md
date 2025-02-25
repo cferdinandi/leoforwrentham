@@ -4,7 +4,6 @@ date: 2018-01-14T21:38:44-05:00
 draft: false
 noTitle: true
 hasHero: true
-externaljs: ["https://f.convertkit.com/ckjs/ck.5.js"]
 ---
 
 <div id="join" class="full-width bg-primary padding-top-large padding-bottom-large">

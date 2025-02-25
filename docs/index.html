@@ -1573,6 +1573,10 @@ td {
  * Borders
  */
 
+.border-top-primary {
+	border-top: 1px solid var(--color-primary-dark);
+}
+
 .border-secondary {
 	border: 1px solid var(--color-tertiary-dark);
 }
@@ -1902,7 +1906,7 @@ td {
 	</div>
 </header>
 
-		<main id="main" tabindex="-1">
+		<main id="main"  tabindex="-1">
 
 			<div class="container">
 
@@ -2025,9 +2029,10 @@ td {
 			</div>
 		</main>
 
-		<footer class="container container-large padding-top-large padding-bottom-large">
-			<div class="row-flex margin-bottom-small">
-				<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+		<div class="border-top-primary">
+			<footer class="footer container container-large padding-top-large padding-bottom-large">
+				<div class="row-flex margin-bottom-small">
+					<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
 	<ul class="list-inline no-margin-bottom">
 		<li><a href="#join">Join</a></li>
 <li><a href="#meet">Meet</a></li>
@@ -2036,9 +2041,10 @@ td {
 <li><a href="#donate">Support</a></li>
 	</ul>
 </nav>
-			</div>
-			<p class="text-small text-muted">Paid for by Leo Immonen for Select Board &middot; PO Box 24, Wrentham, MA 02093</p>
-		</footer><script src="https://f.convertkit.com/ckjs/ck.5.js"></script><script>// Initialize the service worker
+				</div>
+				<p class="text-small text-muted">Paid for by Leo Immonen for Select Board &middot; PO Box 24, Wrentham, MA 02093</p>
+			</footer>
+		</div><script>// Initialize the service worker
 if (navigator && navigator.serviceWorker) {
 	navigator.serviceWorker.register('/sw.js');
 }

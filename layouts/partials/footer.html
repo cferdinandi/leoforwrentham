@@ -1,12 +1,14 @@
 			</div>
 		</main>
 
-		<footer class="container container-large padding-top-large padding-bottom-large">
-			<div class="row-flex margin-bottom-small">
-				{{ partial "nav-secondary.html" . }}
-			</div>
-			<p class="text-small text-muted">Paid for by Leo Immonen for Select Board &middot; PO Box 24, Wrentham, MA 02093</p>
-		</footer>
+		<div class="border-top-primary">
+			<footer class="footer container container-large padding-top-large padding-bottom-large">
+				<div class="row-flex margin-bottom-small">
+					{{ partial "nav-secondary.html" . }}
+				</div>
+				<p class="text-small text-muted">Paid for by Leo Immonen for Select Board &middot; PO Box 24, Wrentham, MA 02093</p>
+			</footer>
+		</div>
 
 		{{- if isset .Params "externaljs" -}}
 			{{- range $js := .Params.externaljs -}}
