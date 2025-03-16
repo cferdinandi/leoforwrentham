@@ -60,9 +60,17 @@ hasHero: true
 				<p>During his 35 years in Wrentham, Leo has served on numerous committees.</p>
 				<p>He is currently completing 18 years on the Conservation Commission. He has served on the Recycling Committee, the Open Space Committee, and the Zoning Board of Appeals. He was the driving force behind Wrentham's adoption of the Community Preservation Act.</p>
 				<p>With those years of service to our town, Leo is now eager to serve on our Select Board.</p>
-				<details>
-					<summary class="margin-bottom-small"><strong>Learn more about Leo...</strong></summary>
-					<div class="border-secondary border-radius padding">
+				<p><a class="btn btn-large" href="https://cloud.castus.tv/vod/cable8/private/67c75a6b7ecdd1ff85b39011?page=HOME"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="margin-right" style="margin-bottom:-0.125em;" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2m6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/></svg> Watch my Candidate Profile&nbsp;Video&nbsp;&rarr;</a></p>
+			</div>
+			<div class="grid-half text-center grid-start-first">
+				<img class="img-photo" style="width:88%;transform: rotate(-3deg);" height="720" width="860" src="/img/photos/leo4.jpg">
+			</div> 
+		</div>
+		<details>
+			<summary class="margin-bottom-small text-center"><strong>Learn more about Leo...</strong></summary>
+			<div class="border-secondary border-radius padding">
+				<div class="row">
+					<div class="grid-half">
 						<strong>Highlights</strong>
 						<ul>
 							<li>Leo brings a fresh perspective as a researcher</li>
@@ -71,6 +79,8 @@ hasHero: true
 							<li>Veteran - US Army Officer</li>
 							<li>A retired teacher</li>
 						</ul>
+					</div>
+					<div class="grid-half">
 						<strong>Decades of Service</strong>
 						<ul>
 							<li>18 years on the Conservation Commission</li>
@@ -82,12 +92,9 @@ hasHero: true
 							<li>First lay President of Norwood Lutheran church</li>
 						</ul>
 					</div>
-				</details>
+				</div>
 			</div>
-			<div class="grid-half text-center grid-start-first">
-				<img class="img-photo" style="width:88%;transform: rotate(-3deg);" height="720" width="860" src="/img/photos/leo4.jpg">
-			</div> 
-		</div>
+		</details>
 	</div>
 </div>
 
