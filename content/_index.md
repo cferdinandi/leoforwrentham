@@ -55,7 +55,7 @@ hasHero: true
 <div id="meet" class="full-width bg-secondary padding-top-large padding-bottom-large">
 	<div class="container container-large">
 		<h2 class="text-xlarge text-center">Meet Leo</h2>
-		<div class="row margin-bottom-large">
+		<div class="row margin-bottom">
 			<div class="grid-half margin-bottom">
 				<p>During his 35 years in Wrentham, Leo has served on numerous committees.</p>
 				<p>He is currently completing 18 years on the Conservation Commission. He has served on the Recycling Committee, the Open Space Committee, and the Zoning Board of Appeals. He was the driving force behind Wrentham's adoption of the Community Preservation Act.</p>
@@ -66,7 +66,7 @@ hasHero: true
 				<img class="img-photo" style="width:88%;transform: rotate(-3deg);" height="720" width="860" src="/img/photos/leo4.jpg">
 			</div> 
 		</div>
-		<details>
+		<details class="margin-bottom-large">
 			<summary class="margin-bottom-small text-center"><strong>Learn more about Leo...</strong></summary>
 			<div class="border-secondary border-radius padding">
 				<div class="row">
